@@ -80,6 +80,11 @@ a {
   }
 
   /* titles */
+
+  .section-title {
+    margin: 1rem 0 4rem;
+    font-size: 2rem;
+  }
   .pre-title {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -101,6 +106,15 @@ a {
     left: 0;
     top: 50%;
   }
+
+  /* layout */
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+  }
+
   /*logo and navigation menu*/
   .nav {
     display: flex;
@@ -172,4 +186,87 @@ a {
 .hero-right {
   display: flex;
   justify-content: center;
+}
+/* Services section */
+
+#services {
+  background-color: var(--secondarybackgroundColor);
+  padding: var(--sectionPadding);
+}
+.services .pre-title {
+  margin: 0 auto;
+}
+.services-title {
+  text-align: center;
+}
+.service {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: var(--primaryBackgroundColor);
+  border-radius: var(--itemBorderRadius);
+}
+.service h4 {
+  margin: 1.5rem 0;
+  font-weight: 500;
+  font-size: 1, 05rem;
+}
+.service-icon {
+  background: var(--thirdBacgroundColor);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.service-icon svg {
+  fill: var(--primaryIconColor);
+}
+/* portofolio section */
+#portofolios {
+  padding: var(--sectionPadding);
+}
+.portofolio {
+  border-radius: var(--itemBorderRadius);
+  overflow: hidden;
+}
+.portofolio-cover {
+  height: 230px;
+}
+.portofolio-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portofolio-info {
+  padding: 2rem 1.5rem;
+}
+.portofolio-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.portofolio h4 {
+  font-weight: 500;
+  font-size: 1, 05rem;
+}
+
+.portofolio-title a svg:hover {
+  fill: var(--PrimaryIconColor);
+}
+.portofolio-title a svg {
+  transition: 0.2s ease-in-out;
+}
+.portofolio-tags {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.portofolio-tags div {
+  font-size: 0.9rem;
+  border: 1px solid var(--borderColor);
+  padding: 0.4rem 1rem;
+  color: var(--secondaryTextColor);
 }
