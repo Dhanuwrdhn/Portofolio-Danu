@@ -20,6 +20,7 @@ const navItems: NavItem[] = [
   //   { name: "Projects", href: "/projects" },
 ]
 //item sosialmedia
+//item sosial media
 const socialItems: SocialItem[] = [
   { name: 'GitHub', href: 'https://github.com/Dhanuwrdhn', icon: FaGithub },
   {
