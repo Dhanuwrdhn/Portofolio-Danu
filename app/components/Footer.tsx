@@ -12,7 +12,7 @@ type SocialItem = {
   href: string
   icon: IconType
 }
-
+//item navigasi
 const navItems: NavItem[] = [
   //   { name: "Home", href: "/" },
   //   { name: "About", href: "/about" },
