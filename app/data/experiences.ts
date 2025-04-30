@@ -64,16 +64,7 @@ Utilized Agile methodology with Kanban for efficient project management.`,
     company: 'Universitas Budiluhur',
     date: '2019 - 2023',
     description: `Graduated with a degree in Informatics Engineering,
-specializing in Expert Programming.
-
-Gained comprehensive knowledge in:
-- Game development
-- Algorithms
-- Mobile applications
-- Web development
-- Machine learning
-
-Completed various hands-on projects across multiple programming domains.`,
+specializing in Expert Programming.`,
     type: 'education',
   },
 ]
