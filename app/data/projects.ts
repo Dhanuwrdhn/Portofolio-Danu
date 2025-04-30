@@ -25,7 +25,7 @@ export const projects: Projects[] = [
     ],
     type: 'paid',
     link: '#',
-    imageUrl: '/photos/e-statement.jpeg',
+    imageUrl: './photos/e-statement.jpeg',
   },
   {
     id: 2,
@@ -60,7 +60,7 @@ export const projects: Projects[] = [
     ],
     type: 'paid',
     link: '#',
-    imageUrl: '/photos/grafana.jpeg',
+    imageUrl: './photos/grafana.jpeg',
   },
   {
     id: 4,
@@ -78,7 +78,7 @@ export const projects: Projects[] = [
     ],
     type: 'paid',
     link: '#',
-    imageUrl: '/photos/tukerin.jpeg',
+    imageUrl: './photos/tukerin.jpeg',
   },
   {
     id: 5,
@@ -96,7 +96,7 @@ export const projects: Projects[] = [
     ],
     type: 'paid',
     link: '#',
-    imageUrl: '/photos/chatbot.jpeg',
+    imageUrl: './photos/chatbot.jpeg',
   },
   {
     id: 6,
@@ -114,6 +114,6 @@ export const projects: Projects[] = [
     ],
     type: 'paid',
     link: '#',
-    imageUrl: '/photos/ocr.jpeg',
+    imageUrl: './photos/ocr.jpeg',
   },
 ]
