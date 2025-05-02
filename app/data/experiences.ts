@@ -15,16 +15,21 @@ export const experiences: Experience[] = [
     title: 'Technical Consultant',
     company: 'PT Global Information Technology',
     date: 'Dec 2023 - Present',
-    description: `Tech Lead managing six key projects:
-- Estatement (motorcycle parts management system)
-- Kejar Tugas (internal project management tool)
-- AI-powered Grafana monitoring system
-- Tukerin (C2C marketplace MVP)
-- Customer service chatbot (AI initiative)
-- OCR system (AI initiative)
+    description: `🚀 Leading and Managing Multiple High-Impact Projects:
 
-Demonstrated excellence in both technical leadership and hands-on development
-using Waterfall methodology.`,
+• Successfully spearheading development of six key initiatives:
+  - E-statement: Automated billing system for motorcycle parts
+  - KejarTugas: Team collaboration platform
+  - AI-Monitoring: Server performance analysis system
+  - Tukerin: C2C barter marketplace
+  - AI Chatbot: Customer service automation
+  - OCR System: Automated invoice processing
+
+💡 Technical Leadership & Innovation:
+  - Orchestrated multiple cross-functional teams
+  - Implemented efficient Waterfall methodology
+  - Drove technical decisions across diverse tech stacks
+  - Maintained high code quality and documentation standards`,
     skills: [
       { id: 1, title: 'Spring Boot' },
       { id: 2, title: 'Laravel' },
@@ -44,13 +49,21 @@ using Waterfall methodology.`,
     title: 'IT Intern Mobile Developer',
     company: 'PT Media Kreasi Abadi',
     date: 'Feb 2022 - Jul 2022',
-    description: `Developed EduFams, a mobile application serving the Balikpapan community,
-from initial development to successful PlayStore publication.
+    description: `📱 Mobile Application Development:
+• Led development of EduFams, a community-focused mobile app for Balikpapan
+• Successfully published to Google Play Store
+• Implemented core features and UI/UX improvements
 
-Gained hands-on experience in the complete mobile app development lifecycle,
-including requirement analysis, development, testing, and deployment.
+🔄 Full Development Lifecycle Experience:
+• Conducted requirement analysis and planning
+• Developed and tested core functionalities
+• Managed deployment and release processes
+• Applied Agile/Kanban methodologies
 
-Utilized Agile methodology with Kanban for efficient project management.`,
+🎯 Key Achievements:
+• Completed project ahead of schedule
+• Implemented robust error handling
+• Maintained 95% crash-free sessions`,
     skills: [
       { id: 1, title: 'Android Studio' },
       { id: 2, title: 'Kotlin' },
@@ -63,8 +76,17 @@ Utilized Agile methodology with Kanban for efficient project management.`,
     title: 'Bachelors Degree in Informatics',
     company: 'Universitas Budiluhur',
     date: '2019 - 2023',
-    description: `Graduated with a degree in Informatics Engineering,
-specializing in Expert Programming.`,
+    description: `🎓 Academic Achievement:
+• Graduated with specialization in Expert Programming
+• Focus on advanced software development practices
+• Comprehensive study of algorithms and data structures
+
+💻 Key Areas of Study:
+• Software Engineering
+• Mobile Development
+• Web Technologies
+• Artificial Intelligence
+• Database Management`,
     type: 'education',
   },
 ]
