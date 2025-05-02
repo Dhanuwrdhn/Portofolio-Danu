@@ -27,21 +27,24 @@ export const handleCommand = async (command: string): Promise<string> => {
 
   switch (args[0]) {
     case 'whois':
-      output = `Hey there! I'm a tech enthusiast with an Information Technology degree
-                from Universitas Budiluhur who loves diving into new technologies.
+      output = `
+📍 Hey there!
 
-                My playground includes web development, mobile apps, and AI implementation
-                – areas where I get to combine creativity with technical expertise.
+I'm a tech enthusiast with an Information Technology degree from
+Universitas Budiluhur who loves diving into new technologies.
 
-                I'm particularly fascinated by AI and emerging tech, always eager to explore
-                what's next in these rapidly evolving fields.
+🚀 My playground includes web development, mobile apps, and AI implementation
+   – areas where I get to combine creativity with technical expertise.
 
-                Recently, I had the exciting opportunity to lead a development team where
-                we successfully delivered 6 diverse projects, ranging from web platforms
-                to AI-powered monitoring tools.
+💡 I'm particularly fascinated by AI and emerging tech, always eager to
+   explore what's next in these rapidly evolving fields.
 
-                Whether it's crafting user-friendly interfaces or implementing smart solutions,
-                I'm all about creating technology that makes a real impact.`
+👨‍💻 Recently, I had the exciting opportunity to lead a development team
+   where we successfully delivered 6 diverse projects, ranging from web
+   platforms to AI-powered monitoring tools.
+
+🎯 Whether it's crafting user-friendly interfaces or implementing smart
+   solutions, I'm all about creating technology that makes a real impact.`
       break
     case 'experiences':
       output = 'Fetching experiences...\n'
