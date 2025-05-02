@@ -11,7 +11,7 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
-    id: 2,
+    id: 1,
     title: 'Technical Consultant',
     company: 'PT Global Information Technology',
     date: 'Dec 2023 - Present',
@@ -45,7 +45,7 @@ export const experiences: Experience[] = [
     type: 'work',
   },
   {
-    id: 1,
+    id: 2,
     title: 'IT Intern Mobile Developer',
     company: 'PT Media Kreasi Abadi',
     date: 'Feb 2022 - Jul 2022',
